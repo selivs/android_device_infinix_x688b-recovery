@@ -1,1 +1,1 @@
-PRODUCT_MAKEFILES := \$(LOCAL_DIR)/omni_Infinix.mk
+PRODUCT_MAKEFILES := \$(LOCAL_DIR)/omni_Infinix_X688B.mk
