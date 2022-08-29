@@ -16,5 +16,8 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_Infinix-X688B.mk
+LOCAL_PATH := $(call my-dir)
+
+ifeq ($(TARGET_DEVICE), Infinix-X688B)
+include $(call all-subdir-makefiles,$(LOCAL_PATH))
+endif

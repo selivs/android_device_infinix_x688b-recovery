@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_Infinix-X688B.mk
+add_lunch_combo omni_Infinix-X688B-userdebug
+add_lunch_combo omni_Infinix-X688B-eng
