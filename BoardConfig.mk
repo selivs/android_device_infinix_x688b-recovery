@@ -69,7 +69,6 @@ TARGET_USERIMAGES_USE_F2FS := true
 
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 buildvariant=user
-BOARD_KERNEL_CMDLINE += androidboot.force_normal_boot=1
 BOARD_KERNEL_IMAGE_NAME := Image.gz
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz
 #TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
